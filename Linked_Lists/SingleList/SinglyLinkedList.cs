@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http.Headers;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using static System.Runtime.InteropServices.JavaScript.JSType;
@@ -97,6 +98,11 @@ public class SinglyLinkedList<T>
         {
             current.Next = current.Next.Next;
         }
+
+    }
+
+    public void Ahead(T data)
+    {
 
     }
 

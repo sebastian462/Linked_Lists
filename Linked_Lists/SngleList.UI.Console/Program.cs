@@ -57,7 +57,7 @@ do
 
         case "6":
             singleList.Clear();
-            Console.Write("Lis cleaned. ");
+            Console.Write("List cleaned. ");
             break;
 
     }
@@ -72,6 +72,8 @@ string Menu ()
     Console.WriteLine("4. Exists");
     Console.WriteLine("5. Remove Item");
     Console.WriteLine("6. Clear all List");
+    Console.WriteLine("7. View the List go ahead.");
+    Console.WriteLine("8. View the List go backwards.");
     Console.WriteLine("0. Exit");
     Console.Write("Choose an option: ");
     return Console.ReadLine() ?? "0";
